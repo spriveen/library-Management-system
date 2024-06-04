@@ -1,0 +1,100 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url("Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 47vw;
+    height: 57vh;
+    background-image: url("backwall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+span {
+    font-size: 2vw;
+    font-family: 'Bitter';
+    color: white;
+    display: block;
+}
+
+.container .inner1 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.container .inner2 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: rgba(225,252,252,0.92);
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-family: 'pacifico';
+    margin-bottom: 13%;
+    margin-top: 6%;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 3%;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #4b4040;
+}
+
+input[placeholder] {
+    font-size: 1.4vw;
+    padding-left: 3%;
+    font-family: 'Create Round';
+}
+
+.btn {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    margin-bottom: 20px;
+    font-family: "Crete Round";
+    font-size: 1.3vw;
+    background-color: #12a312;
+    color: white;
+}
+
+.img {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    display: flow;
+    text-align: center;
+    background-image: url("trolleybg.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 37px;
+}
+
+.inner2 Link {
+    text-decoration: none;
+}
